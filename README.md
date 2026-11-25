@@ -66,7 +66,7 @@
 
 AdsTurbo is an AI‑powered video ad generation platform that enables businesses to create high‑converting UGC ads, perform face‑swap, lip‑sync, and multilingual video translation in minutes. The service offers image generation, persona creation, ad cloning, and a suite of video editing tools, all accessible via a REST API. It supports batch processing, async job tracking, and webhook callbacks, targeting e‑commerce brands, agencies, and growth teams seeking scalable creative production.
 
-**Areas:** AI · VideoAds · E-commerce · Marketing · Automation
+**Areas:** Artificial Intelligence · Video Ads · E-Commerce · Marketing · Automation
 
 ## AdsTurbo on APIs.io
 
@@ -92,18 +92,33 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Adsturbo Ai Agentic Access](https://apis.io/agentic-access/adsturbo-ai/adsturbo-ai-agentic-access/)
+- [AdsTurbo Agentic Access](https://apis.io/agentic-access/adsturbo-ai/adsturbo-ai-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (21)
 
 The data models the API reads and writes.
 
+- [ApiSuccessOpenAdCloneAnalyzeEnt](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-api-success-open-ad-clone-analyze-ent/)
+- [ApiSuccessOpenBatchWorkEnt](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-api-success-open-batch-work-ent/)
+- [ApiSuccessOpenPersonaDeleteEnt](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-api-success-open-persona-delete-ent/)
+- [ApiSuccessOpenPersonaEnt](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-api-success-open-persona-ent/)
+- [ApiSuccessOpenPersonalListEnt](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-api-success-open-personal-list-ent/)
+- [ApiSuccessOpenWorkEnt](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-api-success-open-work-ent/)
 - [ImageCreateBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-image-create-body/)
+- [OpenAdCloneAnalyzeBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-ad-clone-analyze-body/)
 - [OpenAdCloneCreateBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-ad-clone-create-body/)
+- [OpenAdCloneGenerateBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-ad-clone-generate-body/)
 - [OpenAiActorListBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-ai-actor-list-body/)
+- [OpenAiActorPerformBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-ai-actor-perform-body/)
+- [OpenBatchGetWorkStatusBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-batch-get-work-status-body/)
+- [OpenGetWorkStatusBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-get-work-status-body/)
 - [OpenImageEcommerceBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-image-ecommerce-body/)
+- [OpenPersonaCreateBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-persona-create-body/)
+- [OpenPersonalListBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-personal-list-body/)
+- [OpenVideoEnhanceV2Body](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-video-enhance-v2-body/)
 - [OpenVideoExtendBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-video-extend-body/)
 - [OpenVideoGenerateBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-video-generate-body/)
+- [OpenVideoMagicEraserBody](https://apis.io/schemas/adsturbo-ai/adsturbo-ai-open-video-magic-eraser-body/)
 
 #### JSON-LD (1)
 
@@ -115,7 +130,7 @@ Linked-data contexts for the provider's vocabulary.
 
 OpenAPI overlays, including conversational phrasing for each operation.
 
-- [Adsturbo Ai Openapi Overlay](https://apis.io/overlays/adsturbo-ai/adsturbo-ai-openapi-overlay/)
+- [AdsTurbo Openapi Overlay](https://apis.io/overlays/adsturbo-ai/adsturbo-ai-openapi-overlay/)
 
 #### Governance rules (1)
 
@@ -127,20 +142,20 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Adsturbo Ai Authentication](https://apis.io/security/adsturbo-ai/adsturbo-ai-authentication/)
-- [Adsturbo Ai Domain Security](https://apis.io/security/adsturbo-ai/adsturbo-ai-domain-security/)
+- [AdsTurbo Authentication](https://apis.io/security/adsturbo-ai/adsturbo-ai-authentication/)
+- [AdsTurbo Domain Security](https://apis.io/security/adsturbo-ai/adsturbo-ai-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Adsturbo Ai Plans Pricing](https://apis.io/plans/adsturbo-ai/adsturbo-ai-plans-pricing/)
+- [AdsTurbo Plans Pricing](https://apis.io/plans/adsturbo-ai/adsturbo-ai-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Adsturbo Ai Rate Limits](https://apis.io/rate-limits/adsturbo-ai/adsturbo-ai-rate-limits/)
+- [AdsTurbo Rate Limits](https://apis.io/rate-limits/adsturbo-ai/adsturbo-ai-rate-limits/)
 
 ## Where to find this API
 
@@ -158,25 +173,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 53.2** — developing · rubric 0.26.0 · scored 2026-10-31
+**Kin Score 50.5** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 57.7 |
-| Contract governance | 70.9 |
-| Operational transparency | 5.3 |
+| Discoverability | 73.2 |
+| Contract quality | 60.7 |
+| Contract governance | 19.7 |
+| Operational transparency | 4.8 |
 | Developer ergonomics | 49.3 |
-| Access clarity | 60.0 |
+| Access clarity | 63.8 |
 
-**Agent readiness 59.7** — agent-ready (gated down from agent-native)
+**Agent readiness 48.3** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | served (partial credit) |
 | Idempotency | verified |
 | Error Semantics | — |
@@ -184,7 +199,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | unknown |
-| Well Known Catalog | yes |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -195,8 +210,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adsturbo-ai/](https://apis.io/providers/adsturbo-ai/).
 
